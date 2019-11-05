@@ -25,7 +25,7 @@ func TickTockBong(){
 
 	for {
 			I++
-			time.Sleep(1 * time.Second)
+			//time.Sleep(1 * time.Second)
 			if I%int(3*60*60)==0{
 				Dataarray[I].Index = I
 				Dataarray[I].Message = hour_message
